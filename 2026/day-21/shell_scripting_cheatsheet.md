@@ -1,4 +1,3 @@
-````markdown
 # Shell Scripting Cheat Sheet
 
 ## Quick Reference Table
@@ -727,6 +726,4 @@ main
 ✓ Test commands manually
 ```
 
-```
-```
 
