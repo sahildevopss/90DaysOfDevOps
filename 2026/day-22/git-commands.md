@@ -337,3 +337,119 @@ git remote -v
 
 ✅ Understood Working Directory → Staging Area → Repository
 
+
+# Day 23 - Git Branching & GitHub Commands
+
+## Branching Commands
+
+```bash
+git branch
+```
+
+List all local branches.
+
+```bash
+git branch feature-1
+```
+
+Create a new branch.
+
+```bash
+git checkout feature-1
+```
+
+Switch to an existing branch.
+
+```bash
+git checkout -b feature-2
+```
+
+Create and switch to a new branch in a single command.
+
+```bash
+git switch feature-1
+```
+
+Switch branches using the modern Git command.
+
+```bash
+git switch main
+```
+
+Switch back to the main branch.
+
+```bash
+git branch -d feature-2
+```
+
+Delete a branch.
+
+```bash
+git branch -a
+```
+
+List all local and remote branches.
+
+---
+
+## GitHub Remote Commands
+
+```bash
+git remote -v
+```
+
+View configured remote repositories.
+
+```bash
+git remote add origin <repository-url>
+```
+
+Add a GitHub repository as a remote.
+
+```bash
+git push -u origin main
+```
+
+Push the main branch and set upstream tracking.
+
+```bash
+git push -u origin feature-1
+```
+
+Push a feature branch and set upstream tracking.
+
+```bash
+git pull origin main
+```
+
+Pull changes from GitHub.
+
+```bash
+git fetch
+```
+
+Download remote changes without merging.
+
+---
+
+## Fork & Upstream Commands
+
+```bash
+git clone <repository-url>
+```
+
+Clone a repository locally.
+
+```bash
+git remote add upstream <repository-url>
+```
+
+Add the original repository as upstream.
+
+```bash
+git fetch upstream
+```
+
+Fetch changes from the original repository.
+
+```
