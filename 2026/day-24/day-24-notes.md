@@ -274,3 +274,6 @@ This command helps visualize merge commits, rebases, squash merges, and cherry-p
 * Cherry-pick copies individual commits between branches.
 * Merge preserves history while rebase creates a cleaner history.
 
+# Handwritten Notes
+
+![Advanced Git Notes](GIT-Advanced.png)
