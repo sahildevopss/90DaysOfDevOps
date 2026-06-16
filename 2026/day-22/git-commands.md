@@ -453,3 +453,200 @@ git fetch upstream
 Fetch changes from the original repository.
 
 ```
+## Day 24 - Advanced Git Commands
+
+### Git Merge
+
+Merge a branch into the current branch:
+
+```bash
+git merge <branch-name>
+```
+
+Example:
+
+```bash
+git merge feature-login
+```
+
+---
+
+### Git Rebase
+
+Reapply commits from the current branch on top of another branch:
+
+```bash
+git rebase <branch-name>
+```
+
+Example:
+
+```bash
+git rebase master
+```
+
+---
+
+### Git Squash Merge
+
+Combine all commits from a branch into a single commit before merging:
+
+```bash
+git merge --squash <branch-name>
+```
+
+Example:
+
+```bash
+git merge --squash feature-profile
+```
+
+Complete the squash merge:
+
+```bash
+git commit -m "Add complete profile feature"
+```
+
+---
+
+### Git Stash
+
+Temporarily save uncommitted changes:
+
+```bash
+git stash
+```
+
+Example:
+
+```bash
+git stash
+```
+
+---
+
+### Stash Including Untracked Files
+
+Save tracked and untracked files:
+
+```bash
+git stash -u
+```
+
+Example:
+
+```bash
+git stash --include-untracked
+```
+
+---
+
+### List All Stashes
+
+View saved stashes:
+
+```bash
+git stash list
+```
+
+Example:
+
+```bash
+git stash list
+```
+
+---
+
+### Apply Latest Stash
+
+Restore changes and keep stash entry:
+
+```bash
+git stash apply
+```
+
+Example:
+
+```bash
+git stash apply stash@{0}
+```
+
+---
+
+### Pop Latest Stash
+
+Restore changes and remove stash entry:
+
+```bash
+git stash pop
+```
+
+Example:
+
+```bash
+git stash pop
+```
+
+---
+
+### Cherry Pick
+
+Apply a specific commit from another branch:
+
+```bash
+git cherry-pick <commit-hash>
+```
+
+Example:
+
+```bash
+git cherry-pick 590ade8
+```
+
+---
+
+### Continue Cherry Pick After Conflict
+
+```bash
+git cherry-pick --continue
+```
+
+Example:
+
+```bash
+git add hotfix.txt
+git cherry-pick --continue
+```
+
+---
+
+### Abort Cherry Pick
+
+Cancel an in-progress cherry-pick:
+
+```bash
+git cherry-pick --abort
+```
+
+Example:
+
+```bash
+git cherry-pick --abort
+```
+
+---
+
+### View Git History Graph
+
+Display branch and merge history visually:
+
+```bash
+git log --oneline --graph --all --decorate
+```
+
+Example:
+
+```bash
+git log --oneline --graph --all --decorate
+```
+
