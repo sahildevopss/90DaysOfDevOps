@@ -449,4 +449,4 @@ Today I learned how to safely undo changes using Git Reset and Git Revert, under
 
 # Handwritten Notes
 
-![Git-Reset/Revert](Day-25- Git-reset)
+![Git-Reset/Revert]('Day-25- Git-reset.png')
