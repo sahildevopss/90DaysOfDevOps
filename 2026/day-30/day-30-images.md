@@ -154,7 +154,13 @@ docker ps -a
 
 ### Screenshot
 
-![Container Lifecycle](./images/docker-create.png,docker-pause.png,docker-stop.png,docker-kill.png,)
+![Create Container](./images/docker-create.png)
+
+![Pause Container](./images/docker-pause.png)
+
+![Stop Container](./images/docker-stop.png)
+
+![Kill Container](./images/docker-kill.png)
 
 ---
 
